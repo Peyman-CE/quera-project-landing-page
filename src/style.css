@@ -1,0 +1,52 @@
+:root{
+  --primary: #2C7EF8;
+  --primary-hover-light: #075CD9;
+  --on-primary-light: #FFFFFF;
+  --background-light: #EBEDEF;
+  --on-background-light: #191C1E;
+  --surface-light:#EBEDEF;
+  --primary-dark:#3A86F8;
+  --primary-hover-dark:#6BA4FA;
+  --background-dark:#040810;
+  --on-background-dark:#E6E9EF;
+  --surface-dark:#E6E9EF;
+  --errors:#E63946;
+  --success:#90F677;
+}
+
+
+
+@font-face {
+  font-family: "YekanBakh";
+  src: url(./assets/fonts/yekan-bakh/YekanBakh-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url(./assets/fonts/yekan-bakh/YekanBakh-SemiBold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url(./assets/fonts/yekan-bakh/YekanBakh-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url(./assets/fonts/yekan-bakh/YekanBakh-Black.woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Kalameh";
+  src: url(./assets/fonts/kalameh/Kalameh-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Kalameh";
+  src: url(./assets/fonts/kalameh/Kalameh-Bold.woff2);
+  font-weight: 700;
+}
+
+* {
+  font-family: "YekanBakh";
+}
